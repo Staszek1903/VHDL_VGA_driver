@@ -1,0 +1,14 @@
+EN clocking_pll NULL D:/xilinx_projects/vga_driver/clocking_pll.vhd sub00/vhpl02 1568017489
+AR graphic_ram graphic_ram_a D:/xilinx_projects/vga_driver/ipcore_dir/graphic_ram.vhd sub00/vhpl01 1568017488
+AR pixel_gen behavioral D:/xilinx_projects/vga_driver/pixel_gen.vhd sub00/vhpl07 1568017494
+AR top_level behavioral D:/xilinx_projects/vga_driver/top_level.vhd sub00/vhpl09 1568017498
+AR vga_driver behavioral D:/xilinx_projects/vga_driver/vga_driver.vhd sub00/vhpl05 1568017492
+EN palete_ram NULL D:/xilinx_projects/vga_driver/ipcore_dir/palete_ram.vhd sub00/vhpl12 1568016880
+EN pixel_gen NULL D:/xilinx_projects/vga_driver/pixel_gen.vhd sub00/vhpl06 1568017493
+EN display_driver NULL D:/xilinx_projects/vga_driver/display_driver.vhd sub00/vhpl10 1568017495
+AR clocking_pll behavioral D:/xilinx_projects/vga_driver/clocking_pll.vhd sub00/vhpl03 1568017490
+AR palete_ram palete_ram_a D:/xilinx_projects/vga_driver/ipcore_dir/palete_ram.vhd sub00/vhpl13 1568016881
+EN vga_driver NULL D:/xilinx_projects/vga_driver/vga_driver.vhd sub00/vhpl04 1568017491
+AR display_driver behavioral D:/xilinx_projects/vga_driver/display_driver.vhd sub00/vhpl11 1568017496
+EN top_level NULL D:/xilinx_projects/vga_driver/top_level.vhd sub00/vhpl08 1568017497
+EN graphic_ram NULL D:/xilinx_projects/vga_driver/ipcore_dir/graphic_ram.vhd sub00/vhpl00 1568017487

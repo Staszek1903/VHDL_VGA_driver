@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Sep 09 09:39:07 2019
+# Process ID: 7888
+# Log file: D:/xilinx_projects/vga_driver/planAhead_run_5/planAhead.log
+# Journal file: D:/xilinx_projects/vga_driver/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/xilinx_projects/vga_driver/pa.fromNcd.tcl

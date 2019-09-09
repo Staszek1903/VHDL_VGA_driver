@@ -1,0 +1,4 @@
+vhdl work "vga_driver.vhd"
+vhdl work "clocking_pll.vhd"
+vhdl work "top_level.vhd"
+vhdl work "top_test.vhd"

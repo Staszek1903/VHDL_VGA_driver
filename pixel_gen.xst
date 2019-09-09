@@ -1,0 +1,5 @@
+set -tmpdir "D:/xilinx_projects/vga_driver/xst/projnav.tmp"
+set -xsthdpdir "D:/xilinx_projects/vga_driver/xst"
+elaborate
+-ifn pixel_gen.prj
+-ifmt mixed

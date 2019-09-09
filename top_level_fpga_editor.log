@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   D:\xilinx_projects\vga_driver
+#Date/Time:
+#:T   Mon Sep 09 10:17:38 2019
+#------------------------------
+	#Reading top_level.ncd...
+	#Loading device for application Rf_Device from file '3s50a.nph' in environment D:\Xilinx_ISE_DS_Win_14.7_1015_1\Xilinx-ISE\14.7\ISE_DS\ISE\.
+	#   "top_level" is an NCD, version 3.2, device xc3s50a, package tq144, speed -5
+	#Design creation date: 2019.09.09.08.16.55
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

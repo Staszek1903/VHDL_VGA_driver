@@ -1,0 +1,98 @@
+CONFIG VCCAUX = "3.3" ;
+
+#
+####################################################################################################
+#                                       Sliders
+####################################################################################################
+#
+	NET "slider(0)" 			 LOC = P70	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "slider(1)" 			 LOC = P69	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "slider(2)" 			 LOC = P68	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "slider(3)" 			 LOC = P64	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "slider(4)" 			 LOC = P63	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "slider(5)" 			 LOC = P60	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "slider(6)" 			 LOC = P59	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "slider(7)" 			 LOC = P58	| PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#
+####################################################################################################
+#                                       Buttons
+####################################################################################################
+#
+
+	NET "button(0)"          LOC = P80   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "button(1)"          LOC = P79   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "button(2)"          LOC = P78   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "button(3)"          LOC = P77   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "button(4)"          LOC = P76   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "button(5)"          LOC = P75   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	
+#
+####################################################################################################
+#                                       	LED
+####################################################################################################
+#
+	NET "led(0)"				LOC = P55 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+	NET "led(1)"				LOC = P54 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+	NET "led(2)"				LOC = P51 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+	NET "led(3)"				LOC = P50 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+	NET "led(4)"				LOC = P49 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+	NET "led(5)"				LOC = P48 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+	NET "led(6)"				LOC = P47 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+	NET "led(7)"				LOC = P46 | IOSTANDARD = LVCMOS33 |SLEW = SLOW | DRIVE = 12;
+#
+####################################################################################################
+#                                       7 seg dislay
+####################################################################################################
+#		  _A_
+#	  F|	   |B
+#		| _G_ |
+#	  E| 	   |C  
+#		| _D_ |
+#
+# Both segnmets and enable signals are inverted
+# logical 0 is segment on
+# 
+
+    NET "segment(0)"         LOC = P117   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "segment(1)"         LOC = P116   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "segment(2)"         LOC = P115   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "segment(3)"         LOC = P113   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "segment(4)"         LOC = P112   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "segment(5)"         LOC = P111   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "segment(6)"         LOC = P110   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "segment(7)"         LOC = P114   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 
+	 NET "enable(0)"         LOC = P120   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "enable(1)"         LOC = P121   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 NET "enable(2)"         LOC = P124   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+
+#
+####################################################################################################
+#                                       	VGA CONNECTOR
+####################################################################################################
+#
+	#RED
+	NET "vga_connector(9)" LOC = P105   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "vga_connector(8)" LOC = P104   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "vga_connector(7)" LOC = P103   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	
+	#GREEN
+	NET "vga_connector(6)" LOC = P102   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "vga_connector(5)" LOC = P101   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "vga_connector(4)" LOC = P99   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	
+	#BLUE
+	NET "vga_connector(3)" LOC = P98   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	NET "vga_connector(2)" LOC = P96   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	
+	#HSYNC
+	NET "vga_connector(1)" LOC = P93   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	#VSYNC
+	NET "vga_connector(0)" LOC = P92   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 
+#	 
+####################################################################################################
+#                                       CLOCK 12 Mhz
+####################################################################################################
+#
+    NET "clk"                  LOC = P129  | IOSTANDARD = LVCMOS33 | PERIOD = 12MHz;

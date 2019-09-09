@@ -1,0 +1,6 @@
+vhdl work "ipcore_dir/graphic_ram.vhd"
+vhdl work "vga_driver.vhd"
+vhdl work "pixel_gen.vhd"
+vhdl work "clocking_pll.vhd"
+vhdl work "display_driver.vhd"
+vhdl work "top_level.vhd"

@@ -1,0 +1,6 @@
+vhdl work "D:\xilinx_projects\vga_driver\ipcore_dir\graphic_ram.vhd"
+vhdl work "D:\xilinx_projects\vga_driver\vga_driver.vhd"
+vhdl work "D:\xilinx_projects\vga_driver\pixel_gen.vhd"
+vhdl work "D:\xilinx_projects\vga_driver\clocking_pll.vhd"
+vhdl work "D:\xilinx_projects\vga_driver\display_driver.vhd"
+vhdl work "D:\xilinx_projects\vga_driver\top_level.vhd"

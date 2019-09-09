@@ -1,0 +1,1 @@
+vhdtdtfi -prj vga_driver -o D:/xilinx_projects/vga_driver/display_driver.vhi -module display_driver -template D:/Xilinx_ISE_DS_Win_14.7_1015_1/Xilinx-ISE/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work display_driver.vhd 

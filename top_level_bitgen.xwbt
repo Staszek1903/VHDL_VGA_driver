@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xilinx_projects\vga_driver\top_level.ncd
+OUTFILE=D:\xilinx_projects\vga_driver\top_level.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=D:\xilinx_projects\vga_driver
+LICENSE=WebPack
+USER_INFO=211773706_0_0_011

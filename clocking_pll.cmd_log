@@ -1,0 +1,2 @@
+xaw2spl {-intstyle ise} D:/xilinx_projects/vga_driver/ipcore_dir/clocking_pll.xaw 
+spl2sym -intstyle ise -family spartan3a clocking_pll.spl D:/xilinx_projects/vga_driver/clocking_pll.sym 

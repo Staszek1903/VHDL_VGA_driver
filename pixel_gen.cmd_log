@@ -1,0 +1,1 @@
+vhdtdtfi -prj vga_driver -o D:/xilinx_projects/vga_driver/pixel_gen.vhi -module pixel_gen -template D:/Xilinx_ISE_DS_Win_14.7_1015_1/Xilinx-ISE/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ipcore_dir/graphic_ram.vhd -lib work pixel_gen.vhd 

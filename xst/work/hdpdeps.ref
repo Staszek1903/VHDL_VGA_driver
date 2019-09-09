@@ -1,0 +1,44 @@
+V3 30
+FL D:/xilinx_projects/vga_driver/clocking_pll.vhd 2019/09/07.11:16:01 P.20131013
+EN work/clocking_pll 1568017489 FL D:/xilinx_projects/vga_driver/clocking_pll.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/clocking_pll/BEHAVIORAL 1568017490 \
+      FL D:/xilinx_projects/vga_driver/clocking_pll.vhd EN work/clocking_pll 1568017489 \
+      CP BUFG CP IBUFG CP DCM_SP
+FL D:/xilinx_projects/vga_driver/display_driver.vhd 2019/09/09.09:41:17 P.20131013
+EN work/display_driver 1568017495 \
+      FL D:/xilinx_projects/vga_driver/display_driver.vhd PB ieee/std_logic_1164 1381692176
+AR work/display_driver/Behavioral 1568017496 \
+      FL D:/xilinx_projects/vga_driver/display_driver.vhd EN work/display_driver 1568017495
+FL D:/xilinx_projects/vga_driver/ipcore_dir/graphic_ram.vhd 2019/09/09.10:14:16 P.20131013
+EN work/graphic_ram 1568017487 \
+      FL D:/xilinx_projects/vga_driver/ipcore_dir/graphic_ram.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/graphic_ram/graphic_ram_a 1568017488 \
+      FL D:/xilinx_projects/vga_driver/ipcore_dir/graphic_ram.vhd \
+      EN work/graphic_ram 1568017487
+FL D:/xilinx_projects/vga_driver/ipcore_dir/palete_ram.vhd 2019/09/09.10:10:15 P.20131013
+EN work/palete_ram 1568016880 \
+      FL D:/xilinx_projects/vga_driver/ipcore_dir/palete_ram.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/palete_ram/palete_ram_a 1568016881 \
+      FL D:/xilinx_projects/vga_driver/ipcore_dir/palete_ram.vhd \
+      EN work/palete_ram 1568016880
+FL D:/xilinx_projects/vga_driver/pixel_gen.vhd 2019/09/09.10:24:38 P.20131013
+EN work/pixel_gen 1568017493 FL D:/xilinx_projects/vga_driver/pixel_gen.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/pixel_gen/Behavioral 1568017494 \
+      FL D:/xilinx_projects/vga_driver/pixel_gen.vhd EN work/pixel_gen 1568017493 \
+      CP graphic_ram
+FL D:/xilinx_projects/vga_driver/top_level.vhd 2019/09/08.19:47:03 P.20131013
+EN work/top_level 1568017497 FL D:/xilinx_projects/vga_driver/top_level.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/top_level/Behavioral 1568017498 \
+      FL D:/xilinx_projects/vga_driver/top_level.vhd EN work/top_level 1568017497 \
+      CP clocking_pll CP vga_driver CP pixel_gen CP display_driver
+FL D:/xilinx_projects/vga_driver/vga_driver.vhd 2019/09/07.10:50:42 P.20131013
+EN work/vga_driver 1568017491 FL D:/xilinx_projects/vga_driver/vga_driver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/vga_driver/Behavioral 1568017492 \
+      FL D:/xilinx_projects/vga_driver/vga_driver.vhd EN work/vga_driver 1568017491

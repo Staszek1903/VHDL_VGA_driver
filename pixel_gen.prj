@@ -1,0 +1,2 @@
+vhdl work "ipcore_dir/graphic_ram.vhd"
+vhdl work "pixel_gen.vhd"
